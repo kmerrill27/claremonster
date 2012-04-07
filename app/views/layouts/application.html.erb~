@@ -8,7 +8,21 @@
 </head>
 <body>
 <div class="navbar">
-	<a class="brand" href="#">Claremonster</a>
+	<div class="navbar-inner">
+		<div class="container">
+		<a class="brand" href="#">Claremonster</a>
+			<ul class="nav pull-right">
+				<li><%= link_to "About",	about_path %></li>
+				<li><a href="#">
+					<% if user_signed_in? %?
+						<% current_user %>			
+					<% end %>
+									
+				</a></a></li>
+			</ul>		
+		</div>	
+	</div>
+	
 </div>
 <div class="container">
 	<%= yield %>

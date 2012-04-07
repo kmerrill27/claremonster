@@ -1,6 +1,4 @@
 <% provide (:title, 'Home') %>
-<div class="container-fluid">
-<div class="row-fluid"></div>
 <h1>Home</h1>
 <p>Find me in app/views/static_pages/home.html.erb</p>
 </div>

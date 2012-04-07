@@ -10,13 +10,19 @@
 <div class="navbar">
 	<div class="navbar-inner">
 		<div class="container">
-			<ul class="nav">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
+		<a class="brand" href="#">Claremonster</a>
+			<ul class="nav pull-right">
+				<li><%= link_to "About",	about_path %></li>
+				<li><a href="#">
+					<% if user_signed_in? %>
+						<% current_user %>			
+					<% end %>
+									
+				</a></a></li>
 			</ul>		
 		</div>	
 	</div>
-	<a class="brand" href="#">Claremonster</a>
+	
 </div>
 <div class="container">
 	<%= yield %>
