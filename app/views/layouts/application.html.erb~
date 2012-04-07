@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="eng">
 <head>
   <title>Claremonster | <%= yield(:title) %></title>
   <%= stylesheet_link_tag    "application" %>
@@ -7,8 +7,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
+<div class="navbar">
+	<a class="brand" href="#">Claremonster</a>
+</div>
+<div class="container">
+	<%= yield %>
+</div>
 
 </body>
 </html>
