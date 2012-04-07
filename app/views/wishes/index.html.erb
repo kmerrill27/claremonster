@@ -2,10 +2,10 @@
 
 <table>
   <tr>
-    <th>Title</th>
+    <th>Wish</th>
     <th>Description</th>
-    <th>Threshold</th>
-    <th>Deal</th>
+    <th>Proposed incentive</th>
+    <th>Upvotes needed</th>
     <th></th>
     <th></th>
     <th></th>
@@ -15,11 +15,11 @@
   <tr>
     <td><%= wish.title %></td>
     <td><%= wish.description %></td>
-    <td><%= wish.threshold %></td>
     <td><%= wish.deal %></td>
+    <td><%= wish.threshold %></td>
     <td><%= link_to 'Show', wish %></td>
     <td><%= link_to 'Edit', edit_wish_path(wish) %></td>
-    <td><%= link_to 'Destroy', wish, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= link_to 'Destroy', wish, confirm: 'Crush this wish?', method: :delete %></td>
   </tr>
 <% end %>
 </table>
