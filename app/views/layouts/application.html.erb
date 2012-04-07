@@ -14,10 +14,9 @@
 			<ul class="nav pull-right">
 				<li><%= link_to "About",	about_path %></li>
 				<li><a href="#">
-					<% if user_signed_in? %>
-						<% current_user %>			
-					<% end %>
-									
+                    <% if user_signed_in? %>
+                      <% current_user %>			
+                    <% end %>						
 				</a></a></li>
 			</ul>		
 		</div>	
