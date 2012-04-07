@@ -1,4 +1,8 @@
 Claremonster::Application.routes.draw do
+
+  root :to => 'wishes#index'
+  resources :wishes
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,0 +1,29 @@
+<h1>Listing wishes</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Threshold</th>
+    <th>Deal</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @wishes.each do |wish| %>
+  <tr>
+    <td><%= wish.title %></td>
+    <td><%= wish.description %></td>
+    <td><%= wish.threshold %></td>
+    <td><%= wish.deal %></td>
+    <td><%= link_to 'Show', wish %></td>
+    <td><%= link_to 'Edit', edit_wish_path(wish) %></td>
+    <td><%= link_to 'Destroy', wish, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Wish', new_wish_path %>
