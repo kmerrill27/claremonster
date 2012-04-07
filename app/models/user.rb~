@@ -1,7 +1,5 @@
 class User < ActiveRecord::Base
 
-  has_many :wishes #ownership
-  has_many :upvotes
   
 
   # Include default devise modules. Others available are:
