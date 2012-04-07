@@ -1,4 +1,11 @@
 class WishesController < ApplicationController
+
+  before_filter :authenticate_user!, :except => [:show, :index]
+  before_filter :except => [:show, :index] do
+    redirect_to :new_user_session_path unless current_user
+  end
+
+
   # GET /wishes
   # GET /wishes.json
   def index
@@ -24,7 +31,9 @@ class WishesController < ApplicationController
   # GET /wishes/new
   # GET /wishes/new.json
   def new
+
     @wish = Wish.new
+
 
     respond_to do |format|
       format.html # new.html.erb
@@ -34,7 +43,11 @@ class WishesController < ApplicationController
 
   # GET /wishes/1/edit
   def edit
-    @wish = Wish.find(params[:id])
+    if current_user == @wish.user
+      @wish = Wish.find(params[:id])
+    else
+      redirect_to :wishes_path
+    end
   end
 
   # POST /wishes
@@ -59,12 +72,16 @@ class WishesController < ApplicationController
     @wish = Wish.find(params[:id])
 
     respond_to do |format|
-      if @wish.update_attributes(params[:wish])
-        format.html { redirect_to @wish, notice: 'Your wish has been amended.' }
-        format.json { head :ok }
+      if current_user == @wish.user
+        if @wish.update_attributes(params[:wish])
+          format.html { redirect_to @wish, notice: 'Your wish has been amended.' }
+          format.json { head :ok }
+        else
+          format.html { render action: "edit" }
+          format.json { render json: @wish.errors, status: :unprocessable_entity }
+        end
       else
-        format.html { render action: "edit" }
-        format.json { render json: @wish.errors, status: :unprocessable_entity }
+        redirect_to :wishes_path
       end
     end
   end
@@ -73,11 +90,15 @@ class WishesController < ApplicationController
   # DELETE /wishes/1.json
   def destroy
     @wish = Wish.find(params[:id])
-    @wish.destroy
+    if current_user == @wish.user
+      @wish.destroy
 
-    respond_to do |format|
-      format.html { redirect_to wishes_url }
-      format.json { head :ok }
+      respond_to do |format|
+        format.html { redirect_to wishes_url }
+        format.json { head :ok }
+      end
+    else
+      redirect_to :wishes_path
     end
   end
 end
