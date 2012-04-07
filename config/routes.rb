@@ -10,7 +10,8 @@ Claremonster::Application.routes.draw do
 	# not sure why this needs to be here
   get "static_pages/about"
 
-  
+  devise_for :users
+
   resources :wishes
 
   # The priority is based upon order of creation:
