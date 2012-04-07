@@ -1,5 +1,8 @@
 Claremonster::Application.routes.draw do
 
+  devise_for :users
+  resources :user_wishes
+
   root :to => 'wishes#index'
   resources :wishes
 
