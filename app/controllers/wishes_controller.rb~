@@ -43,11 +43,7 @@ class WishesController < ApplicationController
 
   # GET /wishes/1/edit
   def edit
-    if current_user == @wish.user
-      @wish = Wish.find(params[:id])
-    else
-      redirect_to :wishes_path
-    end
+    @wish = Wish.find(params[:id])
   end
 
   # POST /wishes
