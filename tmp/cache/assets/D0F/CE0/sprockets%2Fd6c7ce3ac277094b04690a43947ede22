@@ -1,11 +1,16 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1333780808.065989:@value{	I"length:EFiõïI"digest;
-F"%c60c2a389ca9280b4fdc18911c1e7f90I"source;
-FI"õï/*
- * This is a manifest file that'll automatically include all the stylesheets available in this directory
- * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
- * the top of the compiled file, but it's generally better to create a new file per style scope.
-*/
-/*
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1333780808.05569:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%ace3089eda04bdd459146d10bafae786I"logical_path;
+F"custom.cssI"pathname;
+FI"1$root/app/assets/stylesheets/custom.css.scss;
+FI"content_type;
+FI"text/css;
+FI"
+mtime;
+FI"2012-04-06T23:35:08-07:00;
+FI"	body;
+FI"Ôç/*
  * Bootstrap 2.0.1
  *
  * Copyright 2012 Twitter, Inc
@@ -4549,85 +4554,185 @@ a.thumbnail:hover {
 .invisible {
   visibility: hidden;
 }
-/* line 1, ../../app/assets/stylesheets/scaffolds.css.scss */
-body {
-  background-color: #fff;
-  color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-}
-
-/* line 8, ../../app/assets/stylesheets/scaffolds.css.scss */
-p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-}
-
-/* line 13, ../../app/assets/stylesheets/scaffolds.css.scss */
-pre {
-  background-color: #eee;
-  padding: 10px;
-  font-size: 11px;
-}
-
-/* line 18, ../../app/assets/stylesheets/scaffolds.css.scss */
-a {
-  color: #000;
-}
-/* line 20, ../../app/assets/stylesheets/scaffolds.css.scss */
-a:visited {
-  color: #666;
-}
-/* line 22, ../../app/assets/stylesheets/scaffolds.css.scss */
-a:hover {
-  color: #fff;
-  background-color: #000;
-}
-
-/* line 27, ../../app/assets/stylesheets/scaffolds.css.scss */
-div.field, div.actions {
-  margin-bottom: 10px;
-}
-
-/* line 30, ../../app/assets/stylesheets/scaffolds.css.scss */
-#notice {
-  color: green;
-}
-
-/* line 33, ../../app/assets/stylesheets/scaffolds.css.scss */
-.field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table;
-}
-
-/* line 38, ../../app/assets/stylesheets/scaffolds.css.scss */
-#error_explanation {
-  width: 450px;
-  border: 2px solid red;
-  padding: 7px;
-  padding-bottom: 0;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
-}
-/* line 45, ../../app/assets/stylesheets/scaffolds.css.scss */
-#error_explanation h2 {
-  text-align: left;
-  font-weight: bold;
-  padding: 5px 5px 5px 15px;
-  font-size: 12px;
-  margin: -7px;
-  margin-bottom: 0px;
-  background-color: #c00;
-  color: #fff;
-}
-/* line 54, ../../app/assets/stylesheets/scaffolds.css.scss */
-#error_explanation ul li {
-  font-size: 12px;
-  list-style: square;
-}
 ;
-FI"_version;
-F"%7ee8e148edb47a6afda7ab3a753dd025
+FI"asset_paths;
+F[I"1$root/app/assets/stylesheets/custom.css.scss;
+FI"dependency_paths;
+F[({I"	path;
+FI"1$root/app/assets/stylesheets/custom.css.scss;
+FI"
+mtime;
+FIu:	Timeæ€  €Œ:@_zoneI"PDT;
+T:offsetişI"hexdigest;
+F"%4acb32aa747840e6dad6c57a6d251ae7{I"	path;
+F"„/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/_bootstrap.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%9011b4389543f0d86f3e1a4e44ce71e6{I"	path;
+F"/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_variables.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%95d3300aa3eba1f7866bdf16d609f0f9{I"	path;
+F"‹/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_mixins.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%1d68adfc360550b7e8405170fc81d6be{I"	path;
+F"Š/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_reset.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%2b9adb68a42edf87e9795aed64374bad{I"	path;
+F"/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_scaffolding.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%5db54085ef40eaf205da8007343afb4b{I"	path;
+F"‰/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_grid.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%bd20e08dab2017144ca20ae5ff6ee283{I"	path;
+F"Œ/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_layouts.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%2c7e7e801c178e646c08c521dfcb5616{I"	path;
+F"‰/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_type.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%91f34657dd2685f5b923522176e275c1{I"	path;
+F"‰/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_code.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%62423b436aa1df76e9366f8596c660b3{I"	path;
+F"Š/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_forms.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%d4185e9319bf1c0ab557cebe95e1d79a{I"	path;
+F"‹/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_tables.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%7d6ac43c05ffe42e1332bbd376b5c49a{I"	path;
+F"Œ/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_sprites.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%b775994d76f4215974b26054a8f126b0{I"	path;
+F"/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_dropdowns.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%1fa99189fccf77379f5937b08d44287e{I"	path;
+F"Š/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_wells.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%c6c558b76e14dd084f3a2d9b25466235{I"	path;
+F"™/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_component-animations.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%d3337870f32706c5d89bfa96148331ee{I"	path;
+F"Š/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_close.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%d5560d1517d762ce1973f7a2d94e89d4{I"	path;
+F"Œ/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_buttons.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%f55b4937aa66425d86dec78e568e985d{I"	path;
+F"’/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_button-groups.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%7f7426b858d1c82027aeb5bfdd5822a9{I"	path;
+F"‹/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_alerts.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%605c7828df9b0aaba751f7db122b36d5{I"	path;
+F"‰/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_navs.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%137ce83b4f03d513f478a8744f80c10d{I"	path;
+F"‹/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_navbar.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%fc7617b8d93114cfd42fdd318dad4b7d{I"	path;
+F"/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_breadcrumbs.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%a6edf4ff5d7975f2ba152d6cedbd105c{I"	path;
+F"/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_pagination.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%2694fd6d700037c0660fee6d53fdf189{I"	path;
+F"Š/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_pager.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%c8cbc3385567697fee1c759b9364525b{I"	path;
+F"‹/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_modals.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%3942a2b7f98a8f9c2b610aae74052019{I"	path;
+F"Œ/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_tooltip.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%9517ae2d0e3a75f3abcb0e4efb316add{I"	path;
+F"/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_popovers.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%3aade2a1ca5d3d80564ed797cf953dfd{I"	path;
+F"/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_thumbnails.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%1d0767961fa9a496ad825c352f0f8021{I"	path;
+F"‹/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_labels.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%2f4b746cf721d5663d74af02f19b4454{I"	path;
+F"’/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_progress-bars.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%ae334cab59383dc436bb44a9f7b61244{I"	path;
+F"/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_accordion.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%d1c4a8978f119048e8631787f477439c{I"	path;
+F"/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_carousel.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%b9d35c066304c4ee2bdf3c9defcdb4cc{I"	path;
+F"/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_hero-unit.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%f12ad219f8a9189ab0de799790191fc1{I"	path;
+F"/Users/alexischuck/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.1/vendor/assets/stylesheets/bootstrap/_utilities.scssI"
+mtime;
+FIu;„€  Ğ¾;I"PDT;
+T;işI"hexdigest;
+F"%f2be343f9e95bbbcc7e2fb2c81fdc8bdI"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5
