@@ -1,7 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Title:</b>
+  <b>I wish for:</b>
   <%= @wish.title %>
 </p>
 
@@ -11,15 +11,14 @@
 </p>
 
 <p>
-  <b>Threshold:</b>
-  <%= @wish.threshold %>
-</p>
-
-<p>
-  <b>Deal:</b>
+  <b>Proposed incentive:</b>
   <%= @wish.deal %>
 </p>
 
+<p>
+  <b>Upvotes needed:</b>
+  <%= @wish.threshold %>
+</p>
 
 <%= link_to 'Edit', edit_wish_path(@wish) %> |
 <%= link_to 'Back', wishes_path %>

@@ -1,7 +1,7 @@
 <%= form_for(@wish) do |f| %>
   <% if @wish.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@wish.errors.count, "error") %> prohibited this wish from being saved:</h2>
+      <h2><%= pluralize(@wish.errors.count, "error") %> rejected this wish:</h2>
 
       <ul>
       <% @wish.errors.full_messages.each do |msg| %>
@@ -12,22 +12,22 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :title %><br />
+    <%= f.label :title, "I wish for..." %><br />
     <%= f.text_field :title %>
   </div>
   <div class="field">
-    <%= f.label :description %><br />
+    <%= f.label :description, "Description:" %><br />
     <%= f.text_area :description %>
   </div>
   <div class="field">
-    <%= f.label :threshold %><br />
-    <%= f.number_field :threshold %>
-  </div>
-  <div class="field">
-    <%= f.label :deal %><br />
+    <%= f.label :deal, "Proposed incentive:" %><br />
     <%= f.text_area :deal %>
   </div>
+    <div class="field">
+    <%= f.label :threshold, "Upvotes needed:" %><br />
+    <%= f.select :threshold, {"50" => 50, "100" => 100, "200" => 200, "500" => 500, "1000" => 1000} %>
+  </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit :"Make a Wish" %>
   </div>
 <% end %>

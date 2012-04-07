@@ -44,7 +44,7 @@ class WishesController < ApplicationController
 
     respond_to do |format|
       if @wish.save
-        format.html { redirect_to @wish, notice: 'Wish was successfully created.' }
+        format.html { redirect_to @wish, notice: 'Your wish has been cast.' }
         format.json { render json: @wish, status: :created, location: @wish }
       else
         format.html { render action: "new" }
@@ -60,7 +60,7 @@ class WishesController < ApplicationController
 
     respond_to do |format|
       if @wish.update_attributes(params[:wish])
-        format.html { redirect_to @wish, notice: 'Wish was successfully updated.' }
+        format.html { redirect_to @wish, notice: 'Your wish has been amended.' }
         format.json { head :ok }
       else
         format.html { render action: "edit" }
